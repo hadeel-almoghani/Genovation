@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+body{
+ direction: rtl;
+ text-align: right;
+ font-family: 'Tajawal', sans-serif;
+}
+#hero .content img.top-images {
+    z-index: 99;
+    left: 100px !important  ;
+    top: 200px;
+    max-width: 40%;
+    right: unset;
+}
+
+#hero .content img {
+    position: absolute;
+    max-width: 40%;
+    right: unset;
+}
+#hero .content img {
+    position: absolute;
+    left: 0 !important;
+    max-width: 40%;
+}
+.welness-journy .col-md-3 .sub-content {
+    text-align: center !important;
+}
+@media (max-width: 767px){
+    #hero .content img {
+        position: static;
+    }
+}
